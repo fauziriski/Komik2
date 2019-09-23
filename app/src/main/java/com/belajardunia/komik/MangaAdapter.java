@@ -10,33 +10,31 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class SeninAdapter {
+public class MangaAdapter extends BaseAdapter {
 
     private final Context context;
-    private ArrayList<Senin> senin;
+    private ArrayList<Manga> manga;
 
-    public HeroAdapter(Context context) {
+    public MangaAdapter(Context context) {
 
         this.context = context;
-        senin = new ArrayList<>();
+        manga = new ArrayList<>();
     }
 
-    public SeninAdapter() {
-    }
 
-    public void setHeroes(ArrayList<Senin> senin) {
-        this.senin = senin;
+    public void setManga(ArrayList<Manga> manga) {
+        this.manga = manga;
 
     }
 
     @Override
     public int getCount() {
-        return senin.size();
+        return manga.size();
     }
 
     @Override
     public Object getItem(int i) {
-        return senin.get(i);
+        return manga.get(i);
     }
 
     @Override
@@ -51,8 +49,8 @@ public class SeninAdapter {
         }
 
         ViewHolder viewHolder = new ViewHolder(view);
-        Senin senin = (Senin)getItem(i);
-        viewHolder.bind(senin);
+        Manga manga = (Manga)getItem(i);
+        viewHolder.bind(manga);
         return view;
     }
 
@@ -61,13 +59,15 @@ public class SeninAdapter {
         private ImageView imgPhoto;
 
         ViewHolder(View view){
-            txtName = view.findViewById(R.id.tv_title_senin);
-            imgPhoto = view.findViewById(R.id.img_photo_senin);
+            txtName = view.findViewById(R.id.txt_name);
+            imgPhoto = view.findViewById(R.id.img_photo);
+            txtDescription = view.findViewById(R.id.txt_description);
         }
 
-        void bind(Senin senin){
-            txtName.setText(senin.getName());
-            imgPhoto.setImageResource(senin.getPhoto());
+        void bind(Manga manga){
+            txtName.setText(manga.getName());
+            imgPhoto.setImageResource(manga.getPhoto());
+            txtDescription.setText(manga.getDescription());
         }
     }
 

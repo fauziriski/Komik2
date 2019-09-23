@@ -7,14 +7,40 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string-array name="senin">
+    <string name="name_manga">Nama Manga</string>
+    <string name="lorem">lorem ipsum dolor sit amet</string>
+
+    <string-array name="data_name">
         <item>Gintama</item>
         <item>Kimetsu no Yaiba</item>
+        <item>Black Clover</item>
+        <item>Diamond no Ace</item>
+        <item>Dr. Stone</item>
+        <item>Nanatsu no Taizai</item>
+        <item>Tokyo Ghoul</item>
+        <item>Tokyo Ghoul Re:</item>
     </string-array>
 
-    <string-array name="senin_photo">
-        <item>@drawable/Gintama</item>
-        <item>@drawable/Kimetsu-no-Yaiba</item>
+    <string-array name="data_description">
+        <item>Sakata Gintoki adalah samurai yang hidup di era ketika samurai tidak lagi dibutuhkan. Untuk menambah masalahnya, alien menindas telah pindah untuk menyerang.Gintoki tinggal bersama Kagura dan Shinpachi, mengambil pekerjaan sambilan untuk membuat dunia menjadi tempat yang lebih baik … dan untuk membayar sewa mereka.</item>
+        <item>Disetting pada era Taisho Jepang. Tanjirou adalah seorang anak muda yang baik hati yang hidup damai dengan keluarganya sebagai penjual batubara. kehidupan normal mereka berubah sepenuhnya ketika keluarganya dibantai oleh setan. salah satu yang selamat lainnya, adik Tanjirou ini Nezuko, telah menjadi setan ganas. Dalam rangka untuk kembali Nezuko normal dan membalas dendam pada setan yang membunuh keluarga mereka, mereka berdua berangkat pada perjalanan. Dari bakat muda, kisah petualangan darah dan pedang dimulai!</item>
+        <item>Black Clover sinopsis: Aster dan Yuno ditelantarkan bersama di gereja yang sama. Sebagai anak-anak, mereka berjanji bahwa mereka akan bersaing satu sama lain untuk melihat siapa yang akan menjadi kaisar sihir berikutnya. Namun, saat mereka dewasa, beberapa perbedaan di antara mereka menjadi jelas. Yuno adalah seorang jenius dengan sihir, dengan kekuasaan dan kontrol menakjubkan, sementara Aster tidak bisa menggunakan sihir sama sekali, dan mencoba untuk menebus kekurangnya dengan melatih fisik. Ketika mereka menerima grimoires mereka pada usia 15, Yuno mendapat buku yang spektakuler dengan empat daun semanggi-(kebanyakan orang menerima tiga daun semanggi-), sementara Aster tidak menerima apa-apa sama sekali. Namun, ketika Yuno terancam, kebenaran tentang kekuatan Aster terungkap– ia menerima grimoire lima daun semanggi-, buku ‘semanggi hitam’ anti-sihir. Sekarang mereka berdua melangkah keluar untuk mencari tujuan yang sama!</item>
+        <item>Sawamura Eijun adalah seorang pitcher yang bergabung ke sekolah elit dengan seorang catcher luar biasa bernama Miyuki Kazuya. Bersama dengan seluruh tim, mereka mengikuti Kejuaraan Koushien dengan penuh tekad dan kerja keras.</item>
+        <item>Series science-fiction adventure yang menceritakan tentang kejadian dunia tiba-tiba menjadikan semua manusia dibumi menjadi batu.</item>
+        <item>The “Seven Deadly Sins”, sekelompok kesatria jahat yang bersekongkol untuk menggulingkan kerajaan Britannia, yang dikatakan telah diberantas oleh kesatria suci, meskipun beberapa klaim bahwa mereka masih hidup. Sepuluh tahun kemudian, Kesatria suci telah mengadakan sayembara menangkap raja, menjadi, baru penguasa tirani kerajaan. Elizabeth, putri satu-satunya raja, menempuh perjalanan untuk menemukan “Tujuh Dosa Mematikan”, dan untuk meminta bantuan mereka dalam merebut kembali kerajaan.</item>
+        <item>Berlatar di Tokyo, di mana ada “ghoul” yang meneror manusia dan menjadikannya sebagai makanan. Orang-orang diteror rasa takut oleh ghoul yang menyembunyikan identitas aslinya sebagai manusia. Ada siswa bernama Kaneki yang bertemu dengan gadis bernama Rize. Mereka berdua memiliki hobi yang sama yaitu membaca. Dia bertemu di sebuah kafe. Lalu pada malam harinya ketika akan mengantar Rize pulang, saat itulah takdir Kaneki berubah drastis.</item>
+        <item>Sequel dari manga Tokyo Ghoul. Tokoh utama dalam seri Tokyo Ghoul:re bukanlah Kaneki Ken, dalam seri baru ini tokoh utama merupakan Ghoul Investigator yang bertugas untuk memburu para Ghoul yang memakan manusia.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>@drawable/gintama</item>
+        <item>@drawable/kimetsu_no_yaiba</item>
+        <item>@drawable/black_clover</item>
+        <item>@drawable/diamond_no_ace</item>
+        <item>@drawable/dr_stone</item>
+        <item>@drawable/nanatsu_no_taizai</item>
+        <item>@drawable/tokyo_ghoul</item>
+        <item>@drawable/tokyo_ghoul_ee</item>
     </string-array>
 
 </resources>

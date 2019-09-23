@@ -3,12 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
     tools:context=".RekomendasiFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="300dp"
+        android:src="@drawable/mohonmaaf"
+        />
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text= "Rekomenasi" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:text= "Dalam Tahap Pengembangan" />
 
 </FrameLayout>

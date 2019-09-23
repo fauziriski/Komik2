@@ -1,6 +1,10 @@
 package com.belajardunia.komik;
 
-public class Senin {
+public class Manga {
+
+    private int photo;
+    private String name;
+    private String description;
 
     public int getPhoto() {
         return photo;
@@ -18,8 +22,13 @@ public class Senin {
         this.name = name;
     }
 
-    private int photo;
-    private String name;
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
 
 }

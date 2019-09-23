@@ -3,12 +3,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/cardview_light_background"
     tools:context=".MoreFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="More" />
+        android:paddingTop="30dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/kumbang" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="150dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:text="Kelompok 2
+\n Fauzi Riski 1717051029
+\n Naomy Tiara Dewi 1717051045
+\n Patar Martua 1717051051"/>
 
 </FrameLayout>
